@@ -1,0 +1,27 @@
+{
+  "name": "mypro",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+	"start":"node index.js"
+  },
+  "author": "Ravindar",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/boom": "^7.4.2",
+    "@hapi/hapi": "^18.3.1",
+    "@hapi/inert": "^5.2.0",
+    "downloads-folder": "^1.0.1",
+    "hapi-auth-jwt": "^4.0.0",
+    "hapi-auth-jwt2": "^8.6.1",
+    "hapi-swagger": "^9.4.2",
+    "inert": "^5.1.3",
+    "json-patch": "^0.7.0",
+    "jsonwebtoken": "^8.5.1",
+    "request": "^2.88.0",
+    "sharp": "^0.22.1",
+    "vision": "^5.4.4"
+  }
+}
